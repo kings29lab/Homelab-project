@@ -48,7 +48,9 @@ The lab simulates real world IT support tasks including server setup, network tr
 
 - Installed Ubuntu Server inside UTM virtual machine
 - Configured initial network settings for communication between systems
+
 ![Ubuntu Server and Windows 11 Ready](screenshots/Screenshot%202026-06-11%20at%2006.31.51.png)
+
 ---
 
 ### 2. Network & DNS Troubleshooting
@@ -62,11 +64,12 @@ Temporary failure in name resolution
 Verified connectivity using:
 
 ```bash
-ping google.com!
-[Network Interface IP Address](screenshots/Screenshot%202026-06-11%20at%2006.43.16.png)
+ping google.com
 ```
 
 Confirmed successful internet and local network access.
+
+![Network Interface IP Address](screenshots/Screenshot%202026-06-11%20at%2006.43.16.png)
 
 ---
 
@@ -84,6 +87,8 @@ Result:
 active (running)
 ```
 
+![SSH Connection](screenshots/Screenshot%202026-06-11%20at%2006.39.05.png)
+
 Connected from Windows 11:
 
 ```bash
@@ -98,9 +103,10 @@ Welcome to Ubuntu 24.04 LTS
 
 Successfully established remote administration access.
 
-![SSH Connection](screenshots/Screenshot%202026-06-11%20at%2006.39.05.png)
----
 ![SSH Remote Login](screenshots/Screenshot%202026-06-11%20at%2006.36.18.png)
+
+---
+
 ### 4. Linux User Management
 
 Verified user directories:
@@ -130,12 +136,16 @@ Restarted Samba service:
 ```bash
 sudo systemctl restart smbd
 ```
-![Samba Service Restart](screenshots/Screenshot%202026-06-11%20at%2008.13.19.png)
+
 Verified configuration:
 
 ```bash
 sudo testparm
 ```
+
+![Samba Configuration](screenshots/Screenshot%202026-06-11%20at%2006.41.35.png)
+
+![Samba Service Restart](screenshots/Screenshot%202026-06-11%20at%2008.13.19.png)
 
 ---
 
@@ -159,7 +169,9 @@ Example output:
 ```text
 drwxrwxrwx 2 kings29 kings29 4096 Jun 8 09:25 /home/kings29/shared
 ```
+
 ![Shared Folder Permissions](screenshots/Screenshot%202026-06-11%20at%2006.45.42.png)
+
 ---
 
 ### 7. File Transfer Testing
@@ -181,7 +193,9 @@ Result:
 ```text
 test.txt
 ```
+
 ![File Transfer Verified](screenshots/test%20file.png)
+
 ---
 
 ### 8. Windows File Access
@@ -192,15 +206,20 @@ Accessed Samba share from Windows File Explorer:
 \\192.168.64.5\shared
 ```
 
+![Windows UNC Path Entry](screenshots/Screenshot%202026-06-11%20at%2006.47.33.png)
+
+![Windows Samba Authentication](screenshots/Screenshot%202026-06-11%20at%2006.49.22.png)
+
+![Windows Network Navigation](screenshots/Screenshot%202026-06-11%20at%2008.06.23.png)
+
 Result:
 
 - Shared folder opened successfully
 - File transfer between Windows and Ubuntu confirmed
 - Samba configuration validated
-- ![Windows UNC Path Entry](screenshots/Screenshot%202026-06-11%20at%2006.47.33.png)
-- ![Windows Network Navigation](screenshots/Screenshot%202026-06-11%20at%2008.06.23.png)
-- ![Windows Samba Authentication](screenshots/Screenshot%202026-06-11%20at%2006.49.22.png)
- ![Windows Samba Access](screenshots/Screenshot%202026-06-11%20at%2008.43.42.png)
+
+![Windows Samba Access](screenshots/Screenshot%202026-06-11%20at%2008.43.42.png)
+
 ---
 
 ## 🛠️ Tools & Commands Used
@@ -252,7 +271,6 @@ testparm
 - Cross-Platform Support
 
 ---
-
 
 ## 🧩 Challenges & Solutions
 
@@ -337,8 +355,9 @@ Completed:
 - Structured troubleshooting methodology
 - Technical documentation practices
 
-
+---
 
 ## 🏁 Summary
 
 Successfully deployed and configured an Ubuntu Server environment, implemented secure SSH remote administration, resolved network and DNS issues, configured Samba file sharing, and validated file transfer between Windows 11 and Ubuntu Linux systems.
+
