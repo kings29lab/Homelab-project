@@ -381,3 +381,27 @@ Successfully deployed and configured an Ubuntu Server environment, implemented s
 | Shared Directory  |
 +-------------------+
 ```
+
+## 📸 Screenshots
+
+### SSH Remote Login
+
+![SSH Login](screenshots/ssh-login.png)
+
+---
+
+### Samba Configuration
+
+![Samba Configuration](screenshots/samba-config.png)
+
+---
+
+### Windows Access to Shared Folder
+
+![Windows Share](screenshots/windows-share.png)
+
+---
+
+### File Transfer Validation
+
+![Test File](screenshots/test-file.png)
