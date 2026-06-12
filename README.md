@@ -360,4 +360,3 @@ Completed:
 ## 🏁 Summary
 
 Successfully deployed and configured an Ubuntu Server environment, implemented secure SSH remote administration, resolved network and DNS issues, configured Samba file sharing, and validated file transfer between Windows 11 and Ubuntu Linux systems.
-
