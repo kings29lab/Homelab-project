@@ -92,7 +92,7 @@ ssh kings29@192.168.64.5
 Result:
 
 ```text
-Welcome to Ubuntu 26.04 LTS
+Welcome to Ubuntu 24.04 LTS
 ```
 
 Successfully established remote administration access.
