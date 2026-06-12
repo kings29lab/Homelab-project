@@ -21,7 +21,7 @@ The lab simulates real world IT support tasks including server setup, network tr
 
 ## 🖥️ Environment & Tools
 
-- Ubuntu Server 26.04 LTS (ARM64)
+- Ubuntu Server 24.04 LTS (ARM64)
 - Windows 11 Pro
 - UTM Virtualization
 - OpenSSH Server
