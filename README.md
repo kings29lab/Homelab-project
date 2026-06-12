@@ -360,7 +360,40 @@ Successfully achieved:
 - Shared folder access using Samba
 - File transfer validation across operating systems
 - Resolution of DNS and access control issues
+
+- ## 🔄 Future Improvements
+
+Planned enhancements:
+
+- Configure static IP addressing
+- Add SSH key authentication
+- Restrict Samba permissions using groups
+- Configure firewall rules
+- Add automated backup scripts
+- Expand to multi-VM homelab environment
+
 - 
+## 🔄 Future Improvements
+
+Planned enhancements:
+
+- Configure static IP addressing
+- Add SSH key authentication
+- Restrict Samba permissions using groups
+- Configure firewall rules
+- Add automated backup scripts
+- Expand to multi-VM homelab environment
+- 
+## 🔎 Verification Commands
+
+```bash
+systemctl status ssh
+systemctl status smbd
+testparm
+ip a
+ls -l /home/kings29/shared
+```
+
 ## 🏁 Summary
 
 Successfully deployed and configured an Ubuntu Server environment, implemented secure SSH remote administration, resolved network and DNS issues, configured Samba file sharing, and validated file transfer between Windows 11 and Ubuntu Linux systems.
@@ -382,26 +415,3 @@ Successfully deployed and configured an Ubuntu Server environment, implemented s
 +-------------------+
 ```
 
-## 📸 Screenshots
-
-### SSH Remote Login
-
-![SSH Login](screenshots/ssh-login.png)
-
----
-
-### Samba Configuration
-
-![Samba Configuration](screenshots/samba-config.png)
-
----
-
-### Windows Access to Shared Folder
-
-![Windows Share](screenshots/windows-share.png)
-
----
-
-### File Transfer Validation
-
-![Test File](screenshots/test-file.png)
