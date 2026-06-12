@@ -352,22 +352,32 @@ This lab demonstrates foundational IT operations skills used in enterprise envir
 - How to troubleshoot service failures using systemctl
 - Linux file permissions and their impact on network sharing
 ---
-## 📊 Project Status
+## ✅ Results
 
-**Status: COMPLETED ✅**
+Successfully achieved:
 
-Completed:
-
-- Ubuntu Server deployment
-- Network configuration
-- DNS troubleshooting
-- SSH configuration
-- Remote administration
-- User management
-- Samba configuration
-- Windows file sharing
-- File transfer validation
+- Remote administration from Windows to Ubuntu using SSH
+- Shared folder access using Samba
+- File transfer validation across operating systems
+- Resolution of DNS and access control issues
 - 
 ## 🏁 Summary
 
 Successfully deployed and configured an Ubuntu Server environment, implemented secure SSH remote administration, resolved network and DNS issues, configured Samba file sharing, and validated file transfer between Windows 11 and Ubuntu Linux systems.
+
+## 🏗️ Architecture Diagram
+
+```text
++-------------------+
+|   Windows 11 Pro  |
+|  SSH + SMB Client |
++---------+---------+
+          |
+          | 192.168.64.x
+          |
++---------v---------+
+| Ubuntu Server     |
+| OpenSSH + Samba   |
+| Shared Directory  |
++-------------------+
+```
