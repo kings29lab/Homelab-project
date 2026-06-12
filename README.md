@@ -344,17 +344,13 @@ Completed:
 
 ---
 
-## 📚 Key Learning Outcomes
+## 💡 What I Learned
 
-- Linux server deployment and management
-- SSH remote administration
-- DNS troubleshooting techniques
-- Samba file sharing configuration
-- Windows and Linux interoperability
-- Linux permissions management
-- Structured troubleshooting methodology
-- Technical documentation practices
-
+- How SMB/Samba file sharing works in Linux
+- How Windows accesses Linux shares via UNC paths
+- Importance of DNS in network connectivity
+- How to troubleshoot service failures using systemctl
+- Linux file permissions and their impact on network sharing
 ---
 
 ## 🏁 Summary
